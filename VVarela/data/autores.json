@@ -1,0 +1,130 @@
+{
+    "autores": [
+      {
+        "nombre": "Mark Twain",
+        "libros": [
+          {
+            "titulo": "Las aventuras de Tom Sawyer",
+            "anio_publicacion": 1876
+          },
+          {
+            "titulo": "Las aventuras de Huckleberry Finn",
+            "anio_publicacion": 1884
+          },
+          {
+            "titulo": "Un yanqui en la corte del Rey Arturo",
+            "anio_publicacion": 1889
+          },
+          {
+            "titulo": "La vida en el Mississippi",
+            "anio_publicacion": 1883
+          },
+          {
+            "titulo": "El príncipe y el mendigo",
+            "anio_publicacion": 1881
+          }
+        ]
+      },
+      {
+        "nombre": "Agatha Christie",
+        "libros": [
+          {
+            "titulo": "Asesinato en el Orient Express",
+            "anio_publicacion": 1934
+          },
+          {
+            "titulo": "Diez negritos",
+            "anio_publicacion": 1939
+          },
+          {
+            "titulo": "Muerte en el Nilo",
+            "anio_publicacion": 1937
+          },
+          {
+            "titulo": "El asesinato de Roger Ackroyd",
+            "anio_publicacion": 1926
+          },
+          {
+            "titulo": "Cianuro espumoso",
+            "anio_publicacion": 1952
+          }
+        ]
+      },
+      {
+        "nombre": "Ernest Hemingway",
+        "libros": [
+          {
+            "titulo": "Adiós a las armas",
+            "anio_publicacion": 1929
+          },
+          {
+            "titulo": "El viejo y el mar",
+            "anio_publicacion": 1952
+          },
+          {
+            "titulo": "Por quién doblan las campanas",
+            "anio_publicacion": 1940
+          },
+          {
+            "titulo": "Fiesta",
+            "anio_publicacion": 1926
+          },
+          {
+            "titulo": "París era una fiesta",
+            "anio_publicacion": 1964
+          }
+        ]
+      },
+      {
+        "nombre": "Toni Morrison",
+        "libros": [
+          {
+            "titulo": "Beloved",
+            "anio_publicacion": 1987
+          },
+          {
+            "titulo": "Ojos azules",
+            "anio_publicacion": 1970
+          },
+          {
+            "titulo": "Jazz",
+            "anio_publicacion": 1992
+          },
+          {
+            "titulo": "Paraíso",
+            "anio_publicacion": 1997
+          },
+          {
+            "titulo": "Amada",
+            "anio_publicacion": 1987
+          }
+        ]
+      },
+      {
+        "nombre": "Miguel de Cervantes",
+        "libros": [
+          {
+            "titulo": "Don Quijote de la Mancha",
+            "anio_publicacion": 1605
+          },
+          {
+            "titulo": "Novelas ejemplares",
+            "anio_publicacion": 1613
+          },
+          {
+            "titulo": "La Galatea",
+            "anio_publicacion": 1585
+          },
+          {
+            "titulo": "Los trabajos de Persiles y Sigismunda",
+            "anio_publicacion": 1617
+          },
+          {
+            "titulo": "Viaje del Parnaso",
+            "anio_publicacion": 1614
+          }
+        ]
+      }
+    ]
+  }
+  

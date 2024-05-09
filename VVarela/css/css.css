@@ -1,0 +1,41 @@
+.columna{
+    background-color: aqua;
+}
+.centrar{
+    text-align: center;
+}
+.error{
+    color: red;
+    display: none;
+}
+
+.error-activo{
+    color: red;
+    display: block;
+}
+
+.exito{
+    color: green;
+    display: none;
+}
+
+.exito-activo{
+    color: green;
+    display: block;
+}
+.divEjem{
+    background-color: green;
+    padding: 10px;
+    color: white;
+    margin-bottom: 30px;
+}
+.divEjem2{
+    background-color: green;
+    padding: 10px;
+    color: white;
+    margin-top: 30px;
+}
+.separacion{
+    margin-top: 30px;
+    
+}

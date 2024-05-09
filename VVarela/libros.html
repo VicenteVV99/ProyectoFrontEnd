@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/libros.css">
+    <title>Libros</title>
+</head>
+
+<body>
+    <nav class="navbar bg-light fixed-top">
+        <div class="container-fluid">
+            <a href="landing_page.html">
+                <img src="media/Logo_biblioteca_H.jpg" alt="" width="100">
+            </a>
+            <a class="navbar-brand" href="#">Biblioteca</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Bienvenidos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="landing_page.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="libros.html">Libros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="libros.html">Reportes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="libros.html">Perfil</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Mantenedores
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Editoriales</a></li>
+                                <li><a class="dropdown-item" href="#">Autores</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Usuarios</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Prestamos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Prestar Libros</a></li>
+                                <li><a class="dropdown-item" href="#">Pendientes</a></li>
+                                <li><a class="dropdown-item" href="#">Prorroga</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="card mb-3">
+                    <img src="media/tomsawyer.jpeg" class="card-img-top" alt="">
+                    <div class="card-body text-compressed">
+                        <p class="card-text">"Las Aventuras de Tom Sawyer" es una novela clásica escrita por Mark Twain. Narra las travesuras y aventuras de un niño travieso llamado Tom Sawyer, que vive en un pequeño pueblo a orillas del río Mississippi en Estados Unidos durante la década de 1840. La historia sigue a Tom y a sus amigos, especialmente a su mejor amigo Huckleberry Finn, mientras se embarcan en diversas travesuras, como buscar tesoros perdidos, fingir sus propias muertes y enfrentarse a villanos locales. A través de las vivencias de Tom, la novela también ofrece una mirada a la sociedad y cultura de la época, así como reflexiones sobre la infancia, la moralidad y la naturaleza humana.
+
+
+
+
+
+                        </p>
+                        <button class="btn btn-primary" onclick="toggleTextExpansion(this)">Leer más</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card mb-3">
+                    <img src="media/asesinato-en-el-orient-express.jpg" class="card-img-top" alt="">
+                    <div class="card-body text-compressed">
+                        <p class="card-text">"Asesinato en el Orient Express" es una intrigante novela de misterio escrita por Agatha Christie. Ambientada en el lujoso tren Orient Express en la década de 1930, la historia comienza con un asesinato misterioso. El famoso detective Hercule Poirot se encuentra a bordo del tren y se ve envuelto en la resolución del crimen. Con una lista de sospechosos que incluye a pasajeros de diversos orígenes y nacionalidades, Poirot se enfrenta a un desafío formidable para descubrir al asesino entre ellos. La novela ofrece una trama ingeniosa, giros inesperados y un final sorprendente que desafía las expectativas del lector. Prepárate para sumergirte en un viaje lleno de intriga, suspense y suspenso en "Asesinato en el Orient Express".</p>
+                            <button class="btn btn-primary" onclick="toggleTextExpansion(this)">Leer más</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card mb-3">
+                    <img src="media/adios a las armas.jpg" class="card-img-top" alt="">
+                    <div class="card-body text-compressed">
+                        <p class="card-text">"Adiós a las armas" es una obra maestra literaria escrita por Ernest Hemingway. Ambientada durante la Primera Guerra Mundial, la novela sigue la historia de Frederic Henry, un joven teniente del ejército italiano, y su apasionado romance con Catherine Barkley, una enfermera británica. A medida que la guerra avanza y las circunstancias se vuelven cada vez más desesperadas, Frederic y Catherine luchan por encontrar la felicidad y la redención en un mundo marcado por la violencia y la pérdida. La narrativa de Hemingway es cruda, honesta y profundamente conmovedora, explorando temas como el amor, el sacrificio, la desilusión y la búsqueda de significado en medio del caos. "Adiós a las armas"
+                            <button class="btn btn-primary" onclick="toggleTextExpansion(this)">Leer más</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card mb-3">
+                    <img src="media/cianuro.webp" class="card-img-top" alt="">
+                    <div class="card-body text-compressed">
+                        <p class="card-text">
+                            "Cianuro espumoso" es una obra de Agatha Christie que te sumerge en un misterio intrigante desde la primera página. Ambientada en una mansión aislada en una isla, la trama gira en torno a una reunión de amigos que se ven envueltos en un juego mortal cuando uno de ellos, Sir Charles Cartwright, muere repentinamente tras beber una copa de champán envenenado con cianuro. Ante la sospecha de que cualquiera de los presentes pudo haber cometido el crimen, el famoso detective Hercule Poirot entra en acción para desentrañar el enigma. Con giros sorprendentes y una atmósfera cargada de suspense, "Cianuro espumoso" te mantendrá en vilo hasta la última página, desafiándote a resolver el misterio junto a Poirot.</p>
+                            <button class="btn btn-primary" onclick="toggleTextExpansion(this)">Leer más</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card mb-3">
+                    <img src="media/principe.webp" class="card-img-top" alt="">
+                    <div class="card-body text-compressed">
+                        <p class="card-text">
+                            "El Príncipe y el Mendigo" es una cautivadora novela escrita por Mark Twain que te transporta a la Inglaterra del siglo XVI. La historia sigue los destinos entrelazados de dos niños: Tom Canty, un mendigo que sueña con una vida mejor, y el príncipe Eduardo, heredero del trono de Inglaterra, que anhela la libertad fuera de las obligaciones reales. Cuando estos dos jóvenes de mundos opuestos se encuentran, deciden intercambiar sus identidades. Lo que comienza como un juego se convierte en una aventura extraordinaria, donde descubrirán las verdades sobre la vida, la justicia y la amistad. A través de esta emocionante narrativa, Twain nos ofrece una reflexión sobre las disparidades sociales, la importancia del entendimiento mutuo y el poder de la empatía. Prepárate para sumergirte en un viaje lleno de intriga, humor y lecciones de vida inolvidables con "El Príncipe y el Mendigo"..</p>
+                            <button class="btn btn-primary" onclick="toggleTextExpansion(this)">Leer más</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card mb-3">
+                    <img src="media/lavidaen.webp" class="card-img-top" alt="">
+                    <div class="card-body text-compressed">
+                        <p class="card-text">"La vida en el Mississippi" es un fascinante relato autobiográfico escrito por Mark Twain que te lleva a las orillas del majestuoso río Mississippi en el siglo XIX. A través de las experiencias y observaciones del propio Twain, conocido como Samuel Clemens en su juventud, exploramos la vida en las pequeñas ciudades ribereñas, el comercio fluvial y la cultura del sur de Estados Unidos antes de la Guerra Civil. Twain comparte vívidas descripciones de los paisajes, las personas y las aventuras que marcaron su juventud como piloto de barco de vapor en el Mississippi. Al mismo tiempo, ofrece una mirada satírica y reflexiva sobre la sociedad de su época, abordando temas como el racismo, la superstición y la naturaleza humana. Con un estilo narrativo cautivador y lleno de humor, "La vida en el Mississippi" es un viaje inolvidable a través del tiempo y el espacio, que revela tanto sobre el río mismo como sobre la mente del genio literario detrás de la pluma.</p>
+                            <button class="btn btn-primary" onclick="toggleTextExpansion(this)">Leer más</button>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <div class="container text-center mt-3">
+        <button class="btn btn-primary" id="expandButton">Expandir todas las tarjetas</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function toggleTextExpansion(button) {
+            const cardBody = button.parentElement;
+            cardBody.classList.toggle('text-compressed');
+            cardBody.classList.toggle('text-expanded');
+            if (button.textContent === 'Leer menos') {
+                button.textContent = 'Leer más';
+            } else {
+                button.textContent = 'Leer menos';
+            }
+        }
+
+        document.getElementById('expandButton').addEventListener('click', function () {
+            const cardBodies = document.querySelectorAll('.card-body');
+            cardBodies.forEach(function (cardBody) {
+                cardBody.classList.remove('text-compressed');
+                cardBody.classList.add('text-expanded');
+            });
+        });
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    function toggleTextExpansion(button) {
+        const cardBody = button.parentElement;
+        cardBody.classList.toggle('text-compressed');
+        cardBody.classList.toggle('text-expanded');
+        if (button.textContent === 'Leer menos') {
+            button.textContent = 'Leer más';
+        } else {
+            button.textContent = 'Leer menos';
+        }
+    }
+</script>
+    </script>
+</body>
+
+
+</html>

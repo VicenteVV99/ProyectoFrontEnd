@@ -1,0 +1,12 @@
+.card-body {
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+.text-compressed {
+    max-height: 100px; /* Altura máxima del texto comprimido */
+}
+
+.text-expanded {
+    max-height: unset; /* Altura máxima ilimitada para el texto expandido */
+}

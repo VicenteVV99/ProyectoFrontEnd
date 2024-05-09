@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/landingpage.css">
+  <title>Biblioteca Online</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #32337c83;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 1rem;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            color: #393f81;
+        }
+
+        .is-invalid {
+            border: 1px solid #dc3545 !important;
+        }
+
+        .invalid-feedback {
+            color: #dc3545;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar bg-light fixed-top">
+        <div class="container-fluid">
+            <a href="landing_page.html">
+                <img src="media/Logo_biblioteca_H.jpg" alt="" width="100">
+            </a>
+            <a class="navbar-brand" href="#">Biblioteca</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Bienvenidos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="landing_page.html">inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="libros.html">libros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="libros.html">Reportes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="libros.html">Perfil</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Mantenedores
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Editoriales</a></li>
+                                <li><a class="dropdown-item" href="#">Autores</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Usuarios</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Prestamos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Prestar Libros</a></li>
+                                <li><a class="dropdown-item" href="#">Pendientes</a></li>
+                                <li><a class="dropdown-item" href="#">Prorroga</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <h1>Registro de Usuario</h1>
+    <form id="registroForm">
+        <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre:</label>
+            <input type="text" class="form-control" id="nombre" required>
+            <span class="invalid-feedback" id="errorNombre"></span>
+        </div>
+        <div class="mb-3">
+            <label for="apellido" class="form-label">Apellido:</label>
+            <input type="text" class="form-control" id="apellido" required>
+            <span class="invalid-feedback" id="errorApellido"></span>
+        </div>
+        <div class="mb-3">
+            <label for="rut" class="form-label">Rut:</label>
+            <input type="text" class="form-control" id="rut" required>
+            <span class="invalid-feedback" id="errorRut"></span>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Correo Electrónico:</label>
+            <input type="email" class="form-control" id="email" required>
+            <span class="invalid-feedback" id="errorEmail"></span>
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Contraseña:</label>
+            <input type="password" class="form-control" id="password" required>
+            <span class="invalid-feedback" id="errorPassword"></span>
+        </div>
+        <div class="mb-3">
+            <label for="confirmPassword" class="form-label">Confirmar Contraseña:</label>
+            <input type="password" class="form-control" id="confirmPassword" required>
+            <span class="invalid-feedback" id="errorConfirmPassword"></span>
+        </div>
+        <button type="submit" class="btn btn-dark">Registrar</button>
+    </form>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-xxzQYEfsPjqp94v0jKjOmr3k+5qj5JewcxWVg3pFqoeJGluJr6VFCvFMYsjNNtjR"
+        crossorigin="anonymous"></script>
+
+   
+    <script src="registro.js"></script>
+</body>
+
+</html>
